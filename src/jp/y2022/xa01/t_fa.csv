@@ -1,0 +1,8 @@
+1:type,2:thema,3:proposal,4:good/bad point,5:question,6:answer,7:content	,7：コンテンツ,7：內容,7: Inhalt
+h1,t,,,,,opinion,意見,觀點,Meinung
+h2,*,p,,,,opinion,意見,觀點,Meinung
+,*,*,g,,,opinion,意見,觀點,Meinung
+,*,*,b,,,opinion,意見,觀點,Meinung
+,*,*,*,q,,opinion,意見,觀點,Meinung
+,*,*,*,*,a,opinion,意見,觀點,Meinung
+img,*,p,,,,fa_01.jpg,,,
