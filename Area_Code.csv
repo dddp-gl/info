@@ -1,12 +1,12 @@
 Rank,Arina_Name,Region,Aria_Code,Population,Weight
-0,UnitedChina,Asia,uc,"1,443,378,414",18.53
+---,UnitedChina,Asia,uc,"1,443,378,414",18.53
 2,India,Asia,in,"1,372,989,959",17.62
 3,United States,Americas,us,"332,841,949",4.27
 4,Indonesia,Asia[b],id,"272,248,500",3.49
 5,Pakistan,Asia,pk,"229,488,994",2.95
 6,Brazil,Americas,br,"214,832,513",2.76
 7,Nigeria,Africa,ng,"211,400,708",2.71
-0,UnitedUkraine,Europe,uu,"188,320,432",2.42
+---,UnitedUkraine,Europe,uu,"188,320,432",2.42
 8,Bangladesh,Asia,bd,"168,220,000",2.16
 10,Mexico,Americas,mx,"128,271,248",1.65
 11,Japan,Asia,jp,"125,502,000",1.61
@@ -71,7 +71,7 @@ Rank,Arina_Name,Region,Aria_Code,Population,Weight
 72,Somalia,Africa,so,"16,360,000",0.21
 73,Zimbabwe,Africa,zw,"15,790,716",0.20
 74,Cambodia,Asia,kh,"15,552,211",0.20
-0,UnitedPalestine,Asia,up,"14,767,093",0.19
+---,UnitedPalestine,Asia,up,"14,767,093",0.19
 75,South Sudan,Africa,ss,"13,249,924",0.17
 76,Rwanda,Africa,rw,"12,955,768",0.17
 77,Guinea,Africa,gn,"12,907,395",0.17
@@ -239,15 +239,15 @@ Rank,Arina_Name,Region,Aria_Code,Population,Weight
 0,sum,,,"7,790,546,871",100.00
 ,,,,,
 ,Arina_Name,Region,Sub_Aria_Code,Population,
-1,China,Asia,cn,"1,412,600,000",0.00
-57,Taiwan,Asia,tw,"23,375,314",0.00
-103,Hong Kong (China),Asia,hk,"7,403,100",0.00
-0,UnitedChina,Asia,uc,"1,443,378,414",0.00
+1,China,Asia,cn,"1,412,600,000",---
+57,Taiwan,Asia,tw,"23,375,314",---
+103,Hong Kong (China),Asia,hk,"7,403,100",---
+---,UnitedChina,Asia,uc,"1,443,378,414",---
 ,,,,,
-36,Ukraine,Europe,ua,"41,130,432",0.00
-9,Russia,Europe[c],ru,"147,190,000",0.00
-0,UnitedUkraine,Europe,uu,"188,320,432",0.00
+36,Ukraine,Europe,ua,"41,130,432",---
+9,Russia,Europe[c],ru,"147,190,000",---
+---,UnitedUkraine,Europe,uu,"188,320,432",---
 ,,,,,
-121,Palestine,Asia,ps,"5,227,193",0.00
-94,Israel,Asia,il,"9,539,900",0.00
-0,UnitedPalestine,Asia,up,"14,767,093",0.00
+121,Palestine,Asia,ps,"5,227,193",---
+94,Israel,Asia,il,"9,539,900",---
+---,UnitedPalestine,Asia,up,"14,767,093",---
