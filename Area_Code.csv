@@ -236,7 +236,7 @@ Rank,Arina_Name,Region,Aria_Code,Population,Weight
 239,Vatican City,Europe,va,825,0
 240,Cocos (Keeling) Islands (Australia),Oceania,cc,573,0
 241,Pitcairn Islands (United Kingdom),Oceania,pn,40,0
-,sum,,,"7,790,546,871",100
+,sum,,,"7,790,546,871",100,
 
 ,Arina_Name,Region,Sub_Aria_Code,Population
 1,China,Asia,cn,"1,412,600,000"
