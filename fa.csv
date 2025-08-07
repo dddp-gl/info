@@ -1,4 +1,4 @@
-Rank,Area_Name,Region,Code,Population,Weight,common,local,school
+Rank,AreaName,Region,AreaCode,Population,Weight,common,local,school
 ,UnitedChina,Asia,uc,"1,443,378,414",18.5,,,
 2,India,Asia,in,"1,372,989,959",17.6,,,
 3,United States,Americas,us,"332,841,949",4.27,,,
