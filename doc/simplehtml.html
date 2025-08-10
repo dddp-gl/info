@@ -1,0 +1,587 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="https://dddp-gl.github.io/simplehtml/simplehtml.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="https://dddp-gl.github.io/simplehtml/favicon.ico">
+        <script src='https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js'></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.5.0/mermaid.min.js"></script>  
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/plantuml-encoder@1.4.0/dist/plantuml-encoder.min.js"></script>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                displayAlign: "left",
+                tex2jax: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+            });
+        </script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+        <script type="text/javascript" src="https://dddp-gl.github.io/simplehtml/simplehtml.js"></script>
+    </head> 
+    <body>
+
+<div class="navi">
+    <a href="#Top">Top▲|</a>
+    <a href="#Bottom"> Bottom▼| </a>
+    <a href="#" onClick="history.back()"> Back◀ |</a>
+    <a href="#" onClick="toggle();return false;"> HTML/Text</a>
+    <a href="https://dddp-gl.github.io/simplehtml/reference.html" >|Reference</a>
+    <a href= "https://dddp-gl.github.io/simplehtml/newdocument.html" download="newdocument.html">|Download</a>  
+</div>
+<br>
+<br>
+<br>
+<div id="root">
+
+<a id="Top"></a>
+
+<!-- Main text up to here -->
+
+<div id="index-content"></div> 
+<div class="markdown-content" style="display: none;">
+# SimpleHtml
+## 1. What is SimpleHTML ?
+Using SimpleHTML (an HTML document with additional functions), you can create documents conforming to the following formats.
+
+* Markup language (Markdown).  
+* CSV (utf8) data output from Excel.  
+* Diagram as code(Mermaid,PlantUML).  
+* Graphs, data visualization, 3D animation using JavaScript (Chart.js, D3.js, Three.js).  
+* Displaying formulas (MahtJax).  
+* Diagram by GUI(Draw.io).  
+I can rephrase the above as :.  
+** Editing the HTML using Markdown in an editor can create a document that is easy to write and looks good.  
+** You can create a table from Excel's CSV data (code format: uft8).  
+** You can create diagrams using code.  
+** Create graphs, data visualizations, and 3D animations using JavaScript.  
+** Mathematical formulas (code format: LaTeX format) can be displayed.  
+** Diagrams can be created using the GUI.  
+
+## 2. Features of SimpleHTML
+
+## 3. Screenshot while editing the document.  
+(Left side) Edit the draft of the HTML document with the editor (note.pad).  
+(Right side) Displaying the HTML document in the browser.  
+
+[![image](./screen-shot.png)](./screen-shot.png)    
+screen shot
+
+### 3.1 Good Points
+* HTML allows you to create good-looking documents.
+HTML documents can display text, tables, lists, pictograms, images, and PDF documents.  
+You can also display links within and outside the document.  
+However, the manuscript does not look neat since HTML documents use tags.  
+Also, since line diagrams, such as flowcharts, are displayed as images, minor characters are difficult to see.  
+* By using Markdown, there are no HTML tags to create a clean manuscript.  
+* Markdown is enhanced to allow jumping within a document.  
+* Automatically create a table of contents by collecting HTML and Markdown headings up to the third level at the beginning of an HTML document.  
+* At the top right of the screen, there are buttons to jump to the top and bottom of the page and a button to return to the jump source.  
+There is also a button to switch between HTML and TEXT display.  
+
+### 3.2 Weak Points  
+* An Internet connection is required to view documents in HTML.  
+
+## 4. Comparing document formats.  
+
+Prerequisite: Format and editor correspondence  
+txt,html:Notepad,VS Code,etc  
+docx:Microsoft Word  
+xlsx :Microsoft Excel  
+
+Num.|Comparison items|txt|html|simplehtml|docx|xlsx  
+---|---|---|---|---|---|---|
+1|Can I edit documents files directly?|⭕|⭕|⭕|⭕|⭕
+2|Is it possible to change the font size and color? ||⭕,⭕|⭕|⭕,⭕|⭕,⭕     
+3|Is the manuscript easy to read? (few tags)|⭕||⭕|⭕|⭕
+4|Can I edit documents with free software?|⭕|⭕|⭕||
+5|Can I use images?||⭕|⭕|⭕|⭕
+6|Does the document data include image files?||||⭕|⭕
+7|Can I view documents even if I don't have a communication environment?|⭕|⭕||⭕|⭕
+
+## 5. Customization
+You can add your functionality by modifying simplehtml.css and simplehtml.js.    
+Change the link destinations of these files in your HTML document.  
+If you want to change the appearance of your HTML document, change the css file.      
+The simplahtml.js file is this HTML program.  
+
+## 6. How to synchronize editor and browser  
+The following software is required to immediately display the content edited in the editor in the browser.  
+* VS Code(Visual Studio Code).  
+* Plugin for VS Code (Visual Studio Code).  
+** Live Server or Live Preview.  
+**Draw.io Integration.  
+
+
+## 7. How to use.    
+* How to create a markdown document.    
+Click download on the top right to download newdocument.html.    
+Write the text between the div tags of the markdown-content class.  
+* How to create charts.  
+Press reference on the top right to display the reference list.  
+Open the div tag example and copy the div tag or script tag you want.  
+Paste the div tag or script tag in index.html and write the code or script between the tags.  
+If you want to use images, create an files folder and save the image files in it.  
+
+
+***
+## 8. Examples of how to use each format
+</div>
+
+<h3>8.1 HTML</h3>
+<h4>(1.1)  Link display and location display </h4>
+location sample:<a id="flag1">(loaction flag1)</a><br>
+link sample:<a href="#flag1">Go to flag1</a><br>
+link sample:<a href="#flag2">Go to flag2</a><br> 
+
+<hr>
+<h4>(1.2) Formula display </h4>
+<h4>Display formula</h4>
+$$ \int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi} $$
+<p>matrix</p>
+\begin{pmatrix}
+a & b \\
+c&d
+\end{pmatrix}
+<p>Equation</p>
+When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
+<h4>Inline formula</h4>
+<p>matrix</p>
+\( \begin{bmatrix}
+a & b \\
+c&d
+\end{bmatrix} \)
+<hr>
+<h4>(1.3) Folded view</h4>
+<pre><details>
+<summary>Collapsed view</summary>
+Contents of collapsed display
+console.log('abc');
+</details></pre>
+<hr>
+<h4>(1.4) Checkbox display</h4>
+<ul class="checkbox-list">
+<li><input type="checkbox" checked> Checkbox 1</li>
+<li><input type="checkbox" > Checkbox 2</li>
+</ul>
+<hr>
+
+
+<h3>8.2 Markdown</h3>
+<div class="markdown-content" style="display: none;">
+#### (1) Line break nad heading.  
+Line breaks are created by inserting two spaces at the end of the line.  
+6 levels of headings.  
+***
+#### (2) Code block.  
+````
+example1: [Link to x2](#x2)
+example2: <<a id="<x2>">>a2<</a>>
+example3: <a id="x1">a1</a>
+let a = 1;
+
+````
+***
+#### (3) Block quotation display (blank lines are required before and after)
+
+> <div>xyz</div>      
+> def  
+> ghk  
+
+***
+#### (4) Inline display
+`console.log('abc');`  
+
+***
+#### (5) Highlighting
+italic *abc* ,bold **abc** ,strikethrough ~~abc~~
+***
+#### (6) List display
+* abc  
+* XYZ  
+***
+#### (7) Numbered list display
+1. abc  
+1. XYZ  
+***
+#### (8)  Link display and location display  
+
+[![Image](./link-sample.png)](./link-sample.png)  
+Image sample1: link-sample.png 
+
+link-sample1:[Link to google](https://www.google.com/)     
+link-sample2:[Go to flag2](#flag2)  
+link-sample:[Go to flag1](#flag1)   
+Location sample in markdown:<<a id="<flag2>">>flag2<</a>>
+        
+Image sample2:  
+![image](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+***
+#### (9) Table display
+|Heading 1|Heading 2|Heading 3|
+|---|---|---|
+|Data 1|Data 2|Data 3|
+|Data 4|Data 5|Data 6|
+|Data 7|Data 8|Data 9|  
+***
+
+#### (10)Emoji display
+“&#x” + code number (4 or 5 digits)  
+It's an emoji. &#x1F60A,🤗, &#x1F339 rose,&#x2B06, &#x2B07, &#x21A9, &#x2192  
+(Reference) [Emoji site]("https://www.webpagefx.com/tools/emoji-cheat-sheet/")  
+
+#### (11) Customization example (supplementary card display)</h4>
+<<div class="<note-info>">>Supplementary card content<</div>>
+<<div class="<note-warn>">>Note card content<</div>>
+<<div class="<note-alert>">>Warning card content<</div>>
+***
+</div>
+
+<h3>8.3 CSV</h3>
+type0-------------
+<div class="csv-content" style="display: none;">
+Heading 1, Heading 2, Heading 3
+data 1, data 2, data 3
+data 4, data 5, data 6
+data 7, data 8, data 9
+</div>
+<hr>
+type1--------
+<div class="csv-content type1" style="display: none;">
+Heading 1, Heading 2, Heading 3
+data 1, data 2, data 3
+data 4, data 5, data 6
+data 7, data 8, data 9
+</div>
+<hr>
+type2-------------------
+<div class="csv-content type2" style="display: none;">
+Heading 1, Heading 2, Heading 3
+data 1, data 2, data 3
+data 4, data 5, data 6
+data 7, data 8, data 9
+</div>
+<hr>
+<a id="4"></a>
+<h3>8.4 Mermaid</h3>
+<p>ER Flow Chart by Mermaid</p>
+<div class="mermaid-content" style="display: none;">
+graph TB;
+subgraph 100:rd:reserveDetail
+    101(101:reserveNo)
+    102(102:menueCD)
+end
+subgraph 200:r:reserve
+    201(201:reserveNo)
+    202(202:memberNO)
+    203(203:stylistNO)
+end
+subgraph 300:m:member
+    301(301:memberNO)
+end
+subgraph 400:s:stylist
+    401(401:stylistNo)
+    402(402:rankCD)
+end
+subgraph 500:mu:menue
+    501(501:menueCD)
+end
+subgraph 600:r:rank
+    601(601:rancCD)
+end
+subgraph 700:p:price
+    701(701:rankCD)
+    702(702:menueCD)
+end
+800@{ img: "./img/pic01.jpg", label: "800 Flower------",pos: "t", w: 100, h: 100, constraint: "on"}
+
+101 --> 201
+202 --> 301
+203 --> 401
+402 --> 601
+601 --> 701
+102 --> 501
+501 --> 702
+700:p:price --> 800
+
+</div>
+<hr>
+
+<h3>8.5 PlantUml</h3>
+<p>ER Flow Chart by PlantUml(left to right direction)</p>
+<div class="plantuml-content" style="display: none;">
+@startuml
+!pragma layout smetana
+left to right direction
+object 100_rd_reserveDetail{
+    101_reserveNo
+    102_menueCD
+}
+object 200_r_reserve{
+    201_reserveNo
+    202_memberNO
+    203_stylistNO
+}
+object 300_m_member{
+    301_memberNO
+}
+object 400_s_stylist{
+    401_stylistNo
+    402_rankCD
+}
+object 500_mu_menue{
+    501_menueCD
+}
+object 600_r_rank{
+    601_rancCD
+}
+object 700_p_price{
+    701_rankCD
+    702_menueCD
+}
+100_rd_reserveDetail::101_reserveNo --> 200_r_reserve::201_reserveNo
+100_rd_reserveDetail::102_menueCD --> 500_mu_menue::501_menueCD
+200_r_reserve::202_memberNO --> 300_m_member::301_memberNO
+200_r_reserve::203_stylistNO --> 400_s_stylist::401_stylistNo
+400_s_stylist::402_rankCD --> 600_r_rank::601_rancCD
+600_r_rank::601_rancCD --> 700_p_price::701_rankCD
+500_mu_menue::501_menueCD --> 700_p_price::702_menueCD
+</div>
+<hr>
+
+<p>ER Flow Chart by PlantUml(up to down direction)</p>
+<div class="plantuml-content" style="display: none;">
+@startuml
+object 100_rd_reserveDetail{
+101_reserveNo
+102_menueCD
+}
+object 200_r_reserve{
+201_reserveNo
+202_memberNO
+203_stylistNO
+}
+object 300_m_member{
+301_memberNO
+}
+object 400_s_stylist{
+401_stylistNo
+402_rankCD
+}
+object 500_mu_menue{
+501_menueCD
+}
+object 600_r_rank{
+601_rancCD
+}
+object 700_p_price{
+701_rankCD
+702_menueCD
+}
+100_rd_reserveDetail::101_reserveNo --> 200_r_reserve::201_reserveNo
+100_rd_reserveDetail::102_menueCD --> 500_mu_menue::501_menueCD
+200_r_reserve::202_memberNO --> 300_m_member::301_memberNO
+200_r_reserve::203_stylistNO --> 400_s_stylist::401_stylistNo
+400_s_stylist::402_rankCD --> 600_r_rank::601_rancCD
+600_r_rank::601_rancCD --> 700_p_price::701_rankCD
+500_mu_menue::501_menueCD --> 700_p_price::702_menueCD
+</div>
+
+<hr>
+<p>Flow Chart</p>
+<div class="plantuml-content" style="display: none;">
+@startuml
+start
+:user opens page;
+if (user is logged in) then (yes)
+:Display homepage;
+else (no)
+:Display login page;
+endif
+:Wait for user operation;
+stop
+@enduml
+</div>
+<hr>
+</div>
+<h3>8.6 Chart.js</h3>
+<canvas id="chart1" style="width: 400px; height:300px"></canvas>
+<hr>
+<script>
+const chart1 = () =>{
+    const div = document.createElement('div');
+    const ctx = document.getElementById('chart1').getContext('2d');
+    const myChart = new Chart(ctx, {
+        type: 'line', // Chart type (e.g. bar, line, pie, etc.)
+        data: {
+            labels: ['Red', 'Blue', 'Yellow', 'Green'],
+            datasets: [{
+                label: 'Line Graph of Chart.ls',
+                data: [12, 19, 3, 5],
+                backgroundColor: 'green',
+            }]
+        },
+        options: {
+            animation: false, // disable animation
+            responsive: false, // responsive
+            scales: {
+                y: {
+                beginAtZero: true
+                }
+            }
+        }
+    });
+    return div;
+};
+document.getElementById('chart1').appendChild(chart1());
+</script>
+renderer.render(scene, camera);
+<h3>8.7 D3.j</h3>
+<div id="d3chart1"></div>
+<script>
+//d3chart1----
+const d3chart1 = () =>{
+const data1 = [30, 86, 168, 281, 303, 365];
+const svgWidth = 300, svgHeight = 300;
+const margin = { top: 20, right: 30, bottom: 40, left: 40 };
+const width = svgWidth - margin.left - margin.right;
+const height = svgHeight - margin.top - margin.bottom;
+const div = d3.create("div");
+const svg = div.append("svg")
+.attr("width", svgWidth)
+.attr("height", svgHeight)
+.append("g")
+.attr("transform", `translate(${margin.left},${margin.top})`);
+
+// add title
+svg.append("text")
+.attr("x", width / 2)
+.attr("y", -margin.top / 2+ 20)
+.attr("text-anchor", "middle")
+.style("font-size", "16px")
+.style("text-decoration", "underline")
+.text("Bar Chart of D3.js");
+
+const x = d3.scaleBand()
+.domain(data1.map((d, i) => i))
+.range([0, width])
+.padding(0.1);
+
+const y = d3.scaleLinear()
+.domain([0, d3.max(data1)])
+.nice()
+.range([height, 0]);
+
+svg.selectAll(".bar")
+.data(data1)
+.enter()
+.append("rect")
+.attr("class", "bar")
+.attr("x", (d, i) => x(i))
+.attr("y", d => y(d))
+.attr("width", x.bandwidth())
+.attr("height", d => height - y(d))
+.attr("fill", "teal");
+
+svg.append("g")
+.attr("class", "x-axis")
+.attr("transform", `translate(0,${height})`)
+.call(d3.axisBottom(x).tickFormat((d, i) => `Label ${i + 1}`));
+
+svg.append("g")
+.attr("class", "y-axis")
+.call(d3.axisLeft(y));
+
+return div.node();
+};
+document.getElementById('d3chart1').appendChild(d3chart1());
+</script>
+<hr>
+<div id="d3chart2"></div>
+<script>
+//d3chart2----
+const d3chart2 =()=> {
+    const dataset = [30, 60, 45];
+    const dataset2 = ["Iten A","Item B","Item C"];
+    const div = d3.create("div");
+
+    // add title
+    div.append("h4")
+    .text("Comparison of Items by D3.js")
+    .style("text-align", "center");
+
+    div.selectAll("div")
+    .data(dataset)
+    .join("div")
+    .style("width", d => `${d}%`)
+    .style("height", "50px")
+    .style("background-color", "green")
+    .style("color", "white")
+    .style("margin", "2px")
+    .style("padding", "5px")
+    .data(dataset2)
+    .text(d => d);
+    return div.node();
+}
+document.getElementById('d3chart2').appendChild(d3chart2());
+</script>
+<hr>
+<h3>8.8 Three.js</h3>
+<div id="three1">
+<h4 style="text-align: center;">Cube by Three.js</h4>
+</div>
+<script>
+//<!-- Start Three.js -->
+const three1 = () =>{
+    // create scene
+    const scene = new THREE.Scene();
+    // create camera
+    const camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
+    camera.position.z = 5;
+
+    // Create <div> element
+    const div = document.createElement('div');
+    div.style.width = '200px';
+    div.style.height = '200px';
+
+    // Create a renderer and use the specified <div>
+    const renderer = new THREE.WebGLRenderer();
+    renderer.setSize(200, 200);
+    div.appendChild(renderer.domElement);
+
+    //Create the cube geometry
+    const geometry = new THREE.BoxGeometry();
+    //Create cube material
+    const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+    // create a cube
+    const cube = new THREE.Mesh(geometry, material);
+    scene.add(cube);
+
+    // create animation loop
+    function animate() {
+        requestAnimationFrame(animate);
+        // rotate the cube
+        cube.rotation.x += 0.01;
+        cube.rotation.y += 0.01;
+        //Render using scene and camera
+        renderer.render(scene, camera);
+    }
+    animate();
+    return div;
+};
+document.getElementById('three1').appendChild(three1());
+</script>
+<hr>
+<h3>8.9 Draw.io</h3>
+<img src="./fig.drawio.svg" alt="fig1" style="width:40%;" onclick="window.open('./fig.drowio.svg')">
+<hr>
+<h4>----------------------end ------------------------ --------------</h4>
+<br>
+</div>
+
+<!-- Main text up to here -->
+<a id="Bottom"></a>
+</body> 
+</html> 
