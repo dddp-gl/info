@@ -1,242 +1,242 @@
-"Num","x1",x1Name,source
-1,"in",India,
-2,"cn",China,
-3,"us",United States,
-4,"id",Indonesia,
-5,"pk",Pakistan,
-6,"br",Brazil,
-7,"ng",Nigeria,
-8,"bd",Bangladesh,
-9,"ru",Russia,
-10,"mx",Mexico,
-11,"jp",Japan,https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.soumu.go.jp%2Fmain_content%2F000892948.xlsx&wdOrigin=BROWSELINK
-,,,https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.soumu.go.jp%2Fmain_content%2F000892952.xlsx&wdOrigin=BROWSELINK
-12,"ph",Philippines,
-13,"cd",DR Congo,
-14,"et",Ethiopia,
-15,"eg",Egypt,
-16,"vn",Vietnam,
-17,"ir",Iran,
-18,"tr",Turkey,
-19,"de",Germany,
-20,"uk",United Kingdom,
-21,"fr",France,
-22,"tz",Tanzania,
-23,"th",Thailand,
-24,"za",South Africa,
-25,"it",Italy,
-26,"ke",Kenya,
-27,"co",Colombia,
-28,"sd",Sudan,
-29,"mm",Myanmar,
-30,"kr",South Korea,
-31,"es",Spain,
-32,"dz",Algeria,
-33,"ar",Argentina,
-34,"iq",Iraq,
-35,"ug",Uganda,
-36,"af",Afghanistan,
-37,"ca",Canada,
-38,"uz",Uzbekistan,
-39,"pl",Poland,
-40,"ma",Morocco,
-41,"ao",Angola,
-42,"sa",Saudi Arabia,
-43,"pe",Peru,
-44,"my",Malaysia,
-45,"mz",Mozambique,
-46,"gh",Ghana,
-47,"ye",Yemen,
-48,"mg",Madagascar,
-49,"ci",Ivory Coast,
-50,"np",Nepal,
-51,"cm",Cameroon,
-52,"ua",Ukraine,
-53,"ve",Venezuela,
-54,"au",Australia,
-55,"ne",Niger,
-56,"kp",North Korea,
-57,"sy",Syria,
-58,"bf",Burkina Faso,
-59,"tw",Taiwan,
-60,"ml",Mali,
-61,"lk",Sri Lanka,
-62,"mw",Malawi,
-63,"kz",Kazakhstan,
-64,"cl",Chile,
-65,"zm",Zambia,
-66,"so",Somalia,
-67,"td",Chad,
-68,"ro",Romania,
-69,"sn",Senegal,
-70,"nl",Netherlands,
-71,"ec",Ecuador,
-72,"gt",Guatemala,
-73,"kh",Cambodia,
-74,"zw",Zimbabwe,
-75,"ss",South Sudan,
-76,"gn",Guinea,
-77,"rw",Rwanda,
-78,"bj",Benin,
-79,"bi",Burundi,
-80,"tn",Tunisia,
-81,"be",Belgium,
-82,"ht",Haiti,
-83,"jo",Jordan,
-84,"bo",Bolivia,
-85,"ae",United Arab Emirates,
-86,"cz",Czech Republic,
-87,"do",Dominican Republic,
-88,"pt",Portugal,
-89,"se",Sweden,
-90,"tj",Tajikistan,
-91,"gr",Greece,
-92,"az",Azerbaijan,
-93,"pg",Papua New Guinea,
-94,"il",Israel,
-95,"hn",Honduras,
-96,"cu",Cuba,
-97,"hu",Hungary,
-98,"at",Austria,
-99,"by",Belarus,
-100,"ch",Switzerland,
-101,"sl",Sierra Leone,
-102,"tg",Togo,
-103,"la",Laos,
-104,"hk",Hong Kong,
-105,"ly",Libya,
-106,"kg",Kyrgyzstan,
-107,"tm",Turkmenistan,
-108,"ni",Nicaragua,
-109,"rs",Serbia,
-110,"cf",Central African Republic,
-111,"bg",Bulgaria,
-112,"cg",Congo,
-113,"sg",Singapore,
-114,"py",Paraguay,
-115,"sv",El Salvador,
-116,"dk",Denmark,
-117,"fi",Finland,
-118,"no",Norway,
-119,"lb",Lebanon,
-120,"ps",Palestine,
-121,"ie",Ireland,
-122,"sk",Slovakia,
-123,"om",Oman,
-124,"nz",New Zealand,
-125,"lr",Liberia,
-126,"cr",Costa Rica,
-127,"mr",Mauritania,
-128,"kw",Kuwait,
-129,"pa",Panama,
-130,"hr",Croatia,
-131,"ge",Georgia,
-132,"er",Eritrea,
-133,"mn",Mongolia,
-134,"uy",Uruguay,
-135,"ba",Bosnia and Herzegovina,
-136,"qa",Qatar,
-137,"pr",Puerto Rico,
-138,"am",Armenia,
-139,"na",Namibia,
-140,"lt",Lithuania,
-141,"jm",Jamaica,
-142,"ga",Gabon,
-143,"gm",Gambia,
-144,"md",Moldova,
-145,"al",Albania,
-146,"bw",Botswana,
-147,"si",Slovenia,
-148,"ls",Lesotho,
-149,"gw",Guinea-Bissau,
-150,"lv",Latvia,
-151,"mk",North Macedonia,
-152,"gq",Equatorial Guinea,
-153,"bh",Bahrain,
-154,"x1",Kosovo,
-155,"tl",East Timor,
-156,"tt",Trinidad and Tobago,
-157,"ee",Estonia,
-158,"mu",Mauritius,
-159,"sz",Eswatini,
-160,"dj",Djibouti,
-161,"cy",Cyprus,
-162,"km",Comoros,
-163,"fj",Fiji,
-164,"bt",Bhutan,
-165,"gy",Guyana,
-166,"sb",Solomon Islands,
-167,"mo",Macau,
-168,"lu",Luxembourg,
-169,"me",Montenegro,
-170,"sr",Suriname,
-171,"eh",Western Sahara,
-172,"mt",Malta,
-173,"mv",Maldives,
-174,"cv",Cape Verde,
-175,"x2",Northern Cyprus,
-176,"bn",Brunei,
-177,"bz",Belize,
-178,"bs",Bahamas,
-179,"is",Iceland,
-180,"x3",Transnistria,
-181,"vu",Vanuatu,
-182,"bb",Barbados,
-183,"pf",French Polynesia,
-184,"nc",New Caledonia (France),
-185,"x4",Abkhazia,
-186,"st",São Tomé and Príncipe,
-187,"ws",Samoa,
-188,"lc",Saint Lucia,
-189,"gu",Guam,
-190,"cw",Curaçao,
-191,"x5",Artsakh,
-192,"ki",Kiribati,
-193,"gd",Grenada,
-194,"aw",Aruba,
-195,"vc",Saint Vincent and the Grenadines,
-196,"je",Jersey,
-197,"fm",Micronesia,
-198,"to",Tonga,
-199,"ag",Antigua and Barbuda,
-200,"sc",Seychelles,
-201,"ky",Cayman Islands,
-202,"vi",U.S. Virgin Islands,
-203,"im",Isle of Man,
-204,"dm",Dominica,
-205,"gg",Guernsey,
-206,"bm",Bermuda,
-207,"gl",Greenland,
-208,"x6",South Ossetia,
-209,"fo",Faroe Islands,
-210,"kn",Saint Kitts and Nevis,
-211,"tc",Turks and Caicos Islands,
-212,"as",American Samoa,
-213,"mp",Northern Mariana Islands,
-214,"mh",Marshall Islands,
-215,"sx",Sint Maarten,
-216,"li",Liechtenstein,
-217,"vg",British Virgin Islands,
-218,"mc",Monaco,
-219,"gi",Gibraltar,
-220,"sm",San Marino,
-221,"mq",Saint Martin,
-222,"pw",Palau,
-223,"ai",Anguilla,
-224,"ck",Cook Islands,
-225,"nr",Nauru,
-226,"wf",Wallis and Futuna,
-227,"tv",Tuvalu,
-228,"x7",Saint Barthélemy,
-229,"pm",Saint Pierre and Miquelon,
-230,"sh","Saint Helena, Ascension and Tristan da Cunha",
-231,"ms",Montserrat,
-232,"fk",Falkland Islands,
-233,"tk",Tokelau,
-234,"nf",Norfolk Island,
-235,"cx",Christmas Island,
-236,"nu",Niue,
-237,"va",Vatican City,
-238,"cc",Cocos (Keeling) Islands,
-239,"pn",Pitcairn Islands,
-240,"zz",Global,https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population
+"Num","x1","x1Name","source"
+"1","in","India",""
+"2","cn","China",""
+"3","us","United States",""
+"4","id","Indonesia",""
+"5","pk","Pakistan",""
+"6","br","Brazil",""
+"7","ng","Nigeria",""
+"8","bd","Bangladesh",""
+"9","ru","Russia",""
+"10","mx","Mexico",""
+"11","jp","Japan","https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.soumu.go.jp%2Fmain_content%2F000892948.xlsx&wdOrigin=BROWSELINK"
+"","","","https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.soumu.go.jp%2Fmain_content%2F000892952.xlsx&wdOrigin=BROWSELINK"
+"12","ph","Philippines",""
+"13","cd","DR Congo",""
+"14","et","Ethiopia",""
+"15","eg","Egypt",""
+"16","vn","Vietnam",""
+"17","ir","Iran",""
+"18","tr","Turkey",""
+"19","de","Germany",""
+"20","uk","United Kingdom",""
+"21","fr","France",""
+"22","tz","Tanzania",""
+"23","th","Thailand",""
+"24","za","South Africa",""
+"25","it","Italy",""
+"26","ke","Kenya",""
+"27","co","Colombia",""
+"28","sd","Sudan",""
+"29","mm","Myanmar",""
+"30","kr","South Korea",""
+"31","es","Spain",""
+"32","dz","Algeria",""
+"33","ar","Argentina",""
+"34","iq","Iraq",""
+"35","ug","Uganda",""
+"36","af","Afghanistan",""
+"37","ca","Canada",""
+"38","uz","Uzbekistan",""
+"39","pl","Poland",""
+"40","ma","Morocco",""
+"41","ao","Angola",""
+"42","sa","Saudi Arabia",""
+"43","pe","Peru",""
+"44","my","Malaysia",""
+"45","mz","Mozambique",""
+"46","gh","Ghana",""
+"47","ye","Yemen",""
+"48","mg","Madagascar",""
+"49","ci","Ivory Coast",""
+"50","np","Nepal",""
+"51","cm","Cameroon",""
+"52","ua","Ukraine",""
+"53","ve","Venezuela",""
+"54","au","Australia",""
+"55","ne","Niger",""
+"56","kp","North Korea",""
+"57","sy","Syria",""
+"58","bf","Burkina Faso",""
+"59","tw","Taiwan",""
+"60","ml","Mali",""
+"61","lk","Sri Lanka",""
+"62","mw","Malawi",""
+"63","kz","Kazakhstan",""
+"64","cl","Chile",""
+"65","zm","Zambia",""
+"66","so","Somalia",""
+"67","td","Chad",""
+"68","ro","Romania",""
+"69","sn","Senegal",""
+"70","nl","Netherlands",""
+"71","ec","Ecuador",""
+"72","gt","Guatemala",""
+"73","kh","Cambodia",""
+"74","zw","Zimbabwe",""
+"75","ss","South Sudan",""
+"76","gn","Guinea",""
+"77","rw","Rwanda",""
+"78","bj","Benin",""
+"79","bi","Burundi",""
+"80","tn","Tunisia",""
+"81","be","Belgium",""
+"82","ht","Haiti",""
+"83","jo","Jordan",""
+"84","bo","Bolivia",""
+"85","ae","United Arab Emirates",""
+"86","cz","Czech Republic",""
+"87","do","Dominican Republic",""
+"88","pt","Portugal",""
+"89","se","Sweden",""
+"90","tj","Tajikistan",""
+"91","gr","Greece",""
+"92","az","Azerbaijan",""
+"93","pg","Papua New Guinea",""
+"94","il","Israel",""
+"95","hn","Honduras",""
+"96","cu","Cuba",""
+"97","hu","Hungary",""
+"98","at","Austria",""
+"99","by","Belarus",""
+"100","ch","Switzerland",""
+"101","sl","Sierra Leone",""
+"102","tg","Togo",""
+"103","la","Laos",""
+"104","hk","Hong Kong",""
+"105","ly","Libya",""
+"106","kg","Kyrgyzstan",""
+"107","tm","Turkmenistan",""
+"108","ni","Nicaragua",""
+"109","rs","Serbia",""
+"110","cf","Central African Republic",""
+"111","bg","Bulgaria",""
+"112","cg","Congo",""
+"113","sg","Singapore",""
+"114","py","Paraguay",""
+"115","sv","El Salvador",""
+"116","dk","Denmark",""
+"117","fi","Finland",""
+"118","no","Norway",""
+"119","lb","Lebanon",""
+"120","ps","Palestine",""
+"121","ie","Ireland",""
+"122","sk","Slovakia",""
+"123","om","Oman",""
+"124","nz","New Zealand",""
+"125","lr","Liberia",""
+"126","cr","Costa Rica",""
+"127","mr","Mauritania",""
+"128","kw","Kuwait",""
+"129","pa","Panama",""
+"130","hr","Croatia",""
+"131","ge","Georgia",""
+"132","er","Eritrea",""
+"133","mn","Mongolia",""
+"134","uy","Uruguay",""
+"135","ba","Bosnia and Herzegovina",""
+"136","qa","Qatar",""
+"137","pr","Puerto Rico",""
+"138","am","Armenia",""
+"139","na","Namibia",""
+"140","lt","Lithuania",""
+"141","jm","Jamaica",""
+"142","ga","Gabon",""
+"143","gm","Gambia",""
+"144","md","Moldova",""
+"145","al","Albania",""
+"146","bw","Botswana",""
+"147","si","Slovenia",""
+"148","ls","Lesotho",""
+"149","gw","Guinea-Bissau",""
+"150","lv","Latvia",""
+"151","mk","North Macedonia",""
+"152","gq","Equatorial Guinea",""
+"153","bh","Bahrain",""
+"154","x1","Kosovo",""
+"155","tl","East Timor",""
+"156","tt","Trinidad and Tobago",""
+"157","ee","Estonia",""
+"158","mu","Mauritius",""
+"159","sz","Eswatini",""
+"160","dj","Djibouti",""
+"161","cy","Cyprus",""
+"162","km","Comoros",""
+"163","fj","Fiji",""
+"164","bt","Bhutan",""
+"165","gy","Guyana",""
+"166","sb","Solomon Islands",""
+"167","mo","Macau",""
+"168","lu","Luxembourg",""
+"169","me","Montenegro",""
+"170","sr","Suriname",""
+"171","eh","Western Sahara",""
+"172","mt","Malta",""
+"173","mv","Maldives",""
+"174","cv","Cape Verde",""
+"175","x2","Northern Cyprus",""
+"176","bn","Brunei",""
+"177","bz","Belize",""
+"178","bs","Bahamas",""
+"179","is","Iceland",""
+"180","x3","Transnistria",""
+"181","vu","Vanuatu",""
+"182","bb","Barbados",""
+"183","pf","French Polynesia",""
+"184","nc","New Caledonia (France)",""
+"185","x4","Abkhazia",""
+"186","st","São Tomé and Príncipe",""
+"187","ws","Samoa",""
+"188","lc","Saint Lucia",""
+"189","gu","Guam",""
+"190","cw","Curaçao",""
+"191","x5","Artsakh",""
+"192","ki","Kiribati",""
+"193","gd","Grenada",""
+"194","aw","Aruba",""
+"195","vc","Saint Vincent and the Grenadines",""
+"196","je","Jersey",""
+"197","fm","Micronesia",""
+"198","to","Tonga",""
+"199","ag","Antigua and Barbuda",""
+"200","sc","Seychelles",""
+"201","ky","Cayman Islands",""
+"202","vi","U.S. Virgin Islands",""
+"203","im","Isle of Man",""
+"204","dm","Dominica",""
+"205","gg","Guernsey",""
+"206","bm","Bermuda",""
+"207","gl","Greenland",""
+"208","x6","South Ossetia",""
+"209","fo","Faroe Islands",""
+"210","kn","Saint Kitts and Nevis",""
+"211","tc","Turks and Caicos Islands",""
+"212","as","American Samoa",""
+"213","mp","Northern Mariana Islands",""
+"214","mh","Marshall Islands",""
+"215","sx","Sint Maarten",""
+"216","li","Liechtenstein",""
+"217","vg","British Virgin Islands",""
+"218","mc","Monaco",""
+"219","gi","Gibraltar",""
+"220","sm","San Marino",""
+"221","mq","Saint Martin",""
+"222","pw","Palau",""
+"223","ai","Anguilla",""
+"224","ck","Cook Islands",""
+"225","nr","Nauru",""
+"226","wf","Wallis and Futuna",""
+"227","tv","Tuvalu",""
+"228","x7","Saint Barthélemy",""
+"229","pm","Saint Pierre and Miquelon",""
+"230","sh","Saint Helena, Ascension and Tristan da Cunha",""
+"231","ms","Montserrat",""
+"232","fk","Falkland Islands",""
+"233","tk","Tokelau",""
+"234","nf","Norfolk Island",""
+"235","cx","Christmas Island",""
+"236","nu","Niue",""
+"237","va","Vatican City",""
+"238","cc","Cocos (Keeling) Islands",""
+"239","pn","Pitcairn Islands",""
+"240","zz","Global","https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population"
